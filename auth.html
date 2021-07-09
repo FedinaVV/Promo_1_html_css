@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta name="keywords" content="test, site, web, photo, art" />
+    <meta name="description" content="Cайт на html и css про фотографию" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/icon_camera.ico" />
+    <title>login</title>
+  </head>
+  <body>
+    <div id="page-wrap">
+      <header>
+        <a href="index.html" title="Главная страница" id="logo">About Photo</a>
+        <a href="examples.html" title="Портфолио"
+          ><span class="photo">Красивые фотографии</span>
+        </a>
+        <input type="text" class="field" placeholder="Поиск" />
+
+        <div class="right">
+          <a href="reg.html" title="Зарегистрироваться"
+            ><span class="contact">Регистрация</span>
+          </a>
+          <a href="auth.html" title="Войти"
+            ><span class="contact">Вход</span>
+          </a>
+        </div>
+      </header>
+
+      <div class="clear"><br /></div>
+      <center>
+        <div id="menu">
+          Разделы
+          <hr />
+        </div>
+        <div id="menuHrefs">
+          <a href="history.html">История</a>
+          <a href="theory.html">Теория фотографии</a>
+          <a href="technics.html">Техника</a>
+          <a href="feedback.html">Обратная связь</a>
+        </div>
+      </center>
+
+      <div class="wrapper">
+        <div class="articles">
+          <form class="form-reg" action="" method="post">
+            <label for="adress">Введите адрес электронной почты</label>
+            <input
+              type="email"
+              placeholder="adress@example.com"
+              id="adress"
+              name="adress"
+            />
+
+            <label for="pass">Введите пароль</label>
+            <input type="password" placeholder="Пароль" id="pass" name="pass" />
+
+            <input type="submit" value="Войти" id="login" name="login" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="left">Все права защищены &copy; 2021</div>
+      <div class="right">
+        Социальные сети
+        <img src="img/inst.png" alt="Инстаграмм" title="Страница в инст" />
+      </div>
+    </footer>
+  </body>
+</html>
